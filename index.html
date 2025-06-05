@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Mwaniki | Vendor Management Specialist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content-wrapper">
+        <!-- 3D Environment Canvas -->
+        <canvas id="three-canvas"></canvas>
+
+        <!-- Floating Navigation -->
+        <nav class="orbital-nav">
+            <div class="nav-orbit">
+                <a href="#coverLetter">
+                    <button class="nav-btn active" id="coverLetterBtn">
+                        <div class="nav-icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <span>Cover Letter</span>
+                    </button>
+                </a>
+                <a href="#cvPage">
+                    <button class="nav-btn" id="cvBtn">
+                        <div class="nav-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <span>Curriculum Vitae</span>
+                    </button>
+                </a>
+                <a href="#referencesPage">
+                    <button class="nav-btn" id="referencesBtn">
+                        <div class="nav-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <span>References</span>
+                    </button>
+                </a>
+                <!-- Download PDF Button (top right) -->
+                <a href="Caleb_Mwaniki_CV.pdf" class="download-pdf-link" download>
+                    <button class="nav-btn download-btn" type="button">
+                        <div class="nav-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <span>Download PDF</span>
+                    </button>
+                </a>
+                <div class="nav-trail"></div>
+            </div>
+        </nav>
+
+        <!-- Main Content Container -->
+        <div class="universe-container">
+            <!-- Cover Letter Section - Floating Planet -->
+            <div class="planet-container" id="coverLetter">
+                <div class="planet-surface">
+                    <div class="letter-head">
+                        <div class="profile-hologram">
+                            <div class="hologram-ring ring-1"></div>
+                            <div class="hologram-ring ring-2"></div>
+                            <div class="hologram-ring ring-3"></div>
+                            <img src="https://res.cloudinary.com/deiqv8neq/image/upload/v1745841538/Caleb_Cover_Photo_ocgjia.png" alt="Caleb Mwaniki" class="profile-img">
+                        </div>
+                        <h1 data-text="Caleb Mwaniki">Caleb Mwaniki</h1>
+                        <p class="subtitle">Application for Vendor Management Position at Concentrix</p>
+                    </div>
+
+                    <div class="letter-content">
+                        <div class="content-beam"></div>
+                        <div class="content-scroll">
+                            <p class="letter-paragraph">
+                                There's a transformative moment in customer and vendor relationships where friction can become seamless collaboration—if you build the right systems. My career has been dedicated to designing processes that align vendor capabilities with customer expectations. At CCI Global, I honed my customer support expertise, resolving issues while occasionally liaising with vendors to direct them to the appropriate teams. This exposure gave me insight into how vendor coordination impacts customer satisfaction—like when delayed shipments triggered complaints, prompting me to advocate for clearer vendor communication protocols.
+                            </p>
+
+                            <p class="letter-paragraph">
+                                Now, as a Pre-Launch Architect at TopCart Kenya, I'm directly shaping vendor integration and support systems to ensure scalability. My contributions include:
+                            </p>
+
+                            <ul class="letter-list">
+                                <li><strong>Vendor Training & Accountability:</strong> Developed streamlined training materials for vendors and customer service agents, reducing onboarding time by <span class="highlight">25%</span> while improving SLA compliance. Implemented vendor scorecards to track performance metrics.</li>
+                                <li><strong>Operational Efficiency:</strong> Designed a priority taxonomy for vendor-related tickets (e.g., inventory discrepancies, bulk upload errors), ensuring <span class="highlight">90% of Day 1 issues</span> are resolved in under 2 hours post-launch.</li>
+                                <li><strong>ERP Integrations:</strong> Led UATs for Odoo/Microsip integrations, ensuring seamless syncs between vendor data and order fulfillment systems.</li>
+                            </ul>
+
+                            <p class="letter-paragraph">
+                                Beyond operations, my technical expertise enables me to bridge gaps between vendors and customers. As the Frontend Developer behind G&G Express (a rice supply business), I've built systems that enhance vendor collaboration:
+                            </p>
+
+                            <ul class="letter-list">
+                                <li><strong>Vendor Portal:</strong> Created an intuitive interface for suppliers with real-time order updates and inventory tracking</li>
+                                <li><strong>Automated Alerts:</strong> Developed notification systems to reduce delays and improve accountability</li>
+                                <li><strong>Feedback Systems:</strong> Designed mechanisms to capture vendor insights and enhance partnership experiences</li>
+                            </ul>
+
+                            <p class="letter-paragraph">
+                                What excites me about Concentrix is your commitment to scaling high-trust vendor partnerships. My blend of customer support insight, vendor process design, and technical execution aligns with your mission to transform vendor management into a strategic advantage.
+                            </p>
+
+                            <div class="signature">
+                                <div class="signature-beam"></div>
+                                <div class="signature-name">Caleb Mwaniki</div>
+                                <div>+254 742 380195 | mwanikicaleb0@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="planet-atmosphere"></div>
+            </div>
+
+            <!-- CV Section - Space Station -->
+            <div class="station-container" id="cvPage">
+                <div class="station-dock">
+                    <div class="station-sidebar">
+                        <div class="holographic-display">
+                            <div class="profile-hologram">
+                                <div class="hologram-ring ring-1"></div>
+                                <div class="hologram-ring ring-2"></div>
+                                <div class="hologram-ring ring-3"></div>
+                                <img src="https://res.cloudinary.com/deiqv8neq/image/upload/v1745841538/Caleb_Cover_Photo_ocgjia.png" alt="Caleb Mwaniki" class="profile-img" id="profileImage">
+                            </div>
+                            <h1>CALEB MWANIKI</h1>
+                            <p class="tagline">Vendor Management Specialist | Process Optimizer</p>
+                            
+                            <div class="contact-panel">
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+254 742 380195</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>mwanikicaleb0@gmail.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Nairobi, Kenya</span>
+                                </div>
+                            </div>
+                            
+                            <h2><i class="fas fa-tools"></i> VENDOR MANAGEMENT SKILLS</h2>
+                            <div class="skills-grid">
+                                <div class="skill-node">
+                                    <div class="skill-orb" data-percent="95">
+                                        <div class="skill-fill"></div>
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                    <span>Vendor Onboarding</span>
+                                </div>
+
+                                <div class="skill-node">
+                                    <div class="skill-orb" data-percent="90">
+                                        <div class="skill-fill"></div>
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                    <span>SLA Management</span>
+                                </div>
+
+                                <div class="skill-node">
+                                    <div class="skill-orb" data-percent="92">
+                                        <div class="skill-fill"></div>
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                    <span>ERP Integration</span>
+                                </div>
+
+                                <div class="skill-node">
+                                    <div class="skill-orb" data-percent="88">
+                                        <div class="skill-fill"></div>
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                    <span>Process Design</span>
+                                </div>
+
+                                <div class="skill-node">
+                                    <div class="skill-orb" data-percent="93">
+                                        <div class="skill-fill"></div>
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                    <span>Vendor Training</span>
+                                </div>
+
+                                <div class="skill-node">
+                                    <div class="skill-orb" data-percent="90">
+                                        <div class="skill-fill"></div>
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                    <span>Data Analysis</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Main Content -->
+                    <div class="station-main">
+                        <section class="summary-panel">
+                            <h2>PROFESSIONAL PROFILE</h2>
+                            <div class="scan-line"></div>
+                            <p>
+                                Vendor management specialist with <strong>2+ years</strong> optimizing high-impact vendor relationships, now merging frontline insights with technical solutions. At TopCart Kenya, reduced vendor onboarding time by <strong>25%</strong> by redesigning training workflows. Creator of vendor management systems that improve accountability and communication, developing data-driven solutions informed by analysis of <strong>1000+ vendor interactions</strong> to streamline operations and boost performance.
+                            </p>
+                        </section>
+                        
+                        <section class="experience-deck">
+                            <h2><i class="fas fa-briefcase"></i> PROFESSIONAL EXPERIENCE</h2>
+                            <div class="scan-line"></div>
+                            
+                            <div class="experience-pod">
+                                <div class="pod-glow"></div>
+                                <h3 class="job-title">Pre-Launch Architect (Vendor Operations)</h3>
+                                <span class="company">TopCart Kenya</span>
+                                <span class="date">November 2024 - Present</span>
+                                <p><em>E-Commerce Startup | Vendor Management Focus</em></p>
+                                <ul class="achievement-list">
+                                    <li><strong>Vendor Integration Systems:</strong></li>
+                                    <ul>
+                                        <li>Designed priority taxonomy and escalation matrix enabling <strong>90% Day-1 resolution</strong> of vendor issues (<2 hours) post-launch</li>
+                                        <li>Developed streamlined vendor training modules projected to reduce onboarding time by <strong>25%</strong></li>
+                                    </ul>
+                                    <li><strong>Vendor Recruitment & Management:</strong></li>
+                                    <ul>
+                                        <li>Established vendor evaluation criteria and onboarding processes for 50+ suppliers</li>
+                                        <li>Implemented vendor performance tracking system with automated reporting</li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            
+                            <div class="experience-pod">
+                                <div class="pod-glow"></div>
+                                <h3 class="job-title">Customer Service Specialist</h3>
+                                <span class="company">CCI Global Kenya</span>
+                                <span class="date">May 2023 - November 2024</span>
+                                <ul class="achievement-list">
+                                    <li><strong>Vendor Coordination:</strong></li>
+                                    <ul>
+                                        <li>Acted as liaison between customers and vendors for issue resolution</li>
+                                        <li>Developed communication protocols that reduced vendor-related escalations by <strong>35%</strong></li>
+                                    </ul>
+                                    <li><strong>Process Improvement:</strong></li>
+                                    <ul>
+                                        <li>Created documentation for vendor handoff procedures adopted team-wide</li>
+                                        <li>Identified recurring vendor issues and recommended systemic solutions</li>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <div class="experience-pod founder-pod">
+                                <div class="pod-glow"></div>
+                                <div class="founder-badge">
+                                    <i class="fas fa-code"></i> Technical Projects
+                                </div>
+                                <h3 class="job-title">Frontend Developer (Vendor Systems)</h3>
+                                <span class="company">G&G Express</span>
+                                <span class="date">February 2025 - Present</span>
+                                <ul class="achievement-list">
+                                    <li><strong>Vendor Portal Development:</strong></li>
+                                    <ul>
+                                        <li>Built responsive vendor dashboard with order tracking and analytics</li>
+                                        <li>Implemented bulk upload functionality for product catalogs</li>
+                                    </ul>
+                                    <li><strong>Process Automation:</strong></li>
+                                    <ul>
+                                        <li>Developed automated alerts for shipment delays and inventory thresholds</li>
+                                        <li>Created feedback collection system to improve vendor experience</li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </section>
+                        
+                        <section class="education-deck">
+                            <h2><i class="fas fa-graduation-cap"></i> EDUCATION & CERTIFICATIONS</h2>
+                            <div class="scan-line"></div>
+                            <div class="experience-pod">
+                                <div class="pod-glow"></div>
+                                <h3 class="job-title">MSc Web Design & Digital Marketing</h3>
+                                <span class="company">Max Business School</span>
+                                <span class="date">2024 - 2025</span>
+                                <p>Specializing in data-driven vendor management systems</p>
+                            </div>
+                            
+                            <div class="experience-pod">
+                                <div class="pod-glow"></div>
+                                <h3 class="job-title">BSc Food Science & Technology</h3>
+                                <span class="company">Chuka University</span>
+                                <span class="date">2016 - 2020</span>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="station-rings">
+                    <div class="ring r1"></div>
+                    <div class="ring r2"></div>
+                    <div class="ring r3"></div>
+                </div>
+            </div>
+
+            <!-- References Section - Data Terminal -->
+            <div class="terminal-container" id="referencesPage">
+                <div class="terminal-screen">
+                    <div class="terminal-header">
+                        <div class="terminal-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <h2>REFERENCES DATABASE</h2>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="scan-line"></div>
+                        
+                        <div class="reference-record">
+                            <div class="record-header">
+                                <span class="record-id">REF-001</span>
+                                <h3>Mr. Nicholas Kimani</h3>
+                            </div>
+                            <div class="record-details">
+                                <p><span class="detail-label">Position:</span> Instacart Customer Service Team Leader (CCI Global)</p>
+                                <p><span class="detail-label">Contact:</span> Available upon request</p>
+                            </div>
+                        </div>
+                        
+                        <div class="reference-record">
+                            <div class="record-header">
+                                <span class="record-id">REF-002</span>
+                                <h3>Mr. Johnson Chomba Nguu</h3>
+                            </div>
+                            <div class="record-details">
+                                <p><span class="detail-label">Position:</span> Deputy Principal St. Michael - Kevote</p>
+                                <p><span class="detail-label">Contact:</span> Available upon request</p>
+                            </div>
+                        </div>
+                        
+                        <div class="terminal-footer">
+                            <div class="cursor"></div>
+                            <span class="prompt">>_ Ready for connection</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="terminal-glow"></div>
+            </div>
+        </div>
+
+        <!-- Premium Footer -->
+        <footer class="cosmic-footer">
+            <div class="footer-container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h3>Caleb Mwaniki</h3>
+                        <p>Vendor Management Specialist</p>
+                        <div class="footer-contact">
+                            <p><i class="fas fa-phone"></i> +254 742 380195</p>
+                            <p><i class="fas fa-envelope"></i> mwanikicaleb0@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="#coverLetter">Cover Letter</a></li>
+                            <li><a href="#cvPage">Curriculum Vitae</a></li>
+                            <li><a href="#referencesPage">References</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Technical Skills</h3>
+                        <ul class="footer-skills">
+                            <li>Vendor Management</li>
+                            <li>Process Optimization</li>
+                            <li>ERP Integration</li>
+                            <li>Data Analysis</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <p>© 2025 Caleb Mwaniki. All rights reserved.</p>
+                    <div class="footer-signature">
+                        <span>Built with passion and Three.js</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-stars"></div>
+        </footer>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script type="module" src="./main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+</body>
+</html>
